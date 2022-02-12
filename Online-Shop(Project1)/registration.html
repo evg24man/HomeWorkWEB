@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>registration</title>
+	<link rel="stylesheet" href="iconsfont.css">
+	<link rel="stylesheet" href="styles/registration-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,regular,700,900" rel="stylesheet" />
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<nav class="menu _container">
+				<div class="menu__left-block">
+					<a href="index.html" class="menu__left-block_item"><img src="png-images/logo.png" alt="logo"></a>
+					<button class="menu__left-block_item _icon-search"></button>
+				</div>
+				<div class="menu__right-block">
+					<button id="menu-icon" class="menu__right-block_item _icon-menu"></button>
+					<a href="registration.html" class="menu__right-block_item _icon-account _item-hide"></a>
+					<a href="cart.html" class="menu__right-block_item _icon-shopping-cart _item-hide"></a>
+				</div>
+			</nav>
+			<nav id="menu" class="burger-menu _hide-burger-menu">
+				<button id="close-icon" class="burger-menu__top _icon-close"></button>
+				<div class="burger-menu__title">MENU</div>
+				<div class="burger-menu__section">MAN</div>
+				<ul class="burger-menu__list">
+					<li><a href="#">Accessories</a></li>
+					<li><a href="#">Bags</a></li>
+					<li><a href="#">Denim</a></li>
+					<li><a href="#">T-Shirts</a></li>
+				</ul>
+				<div class="burger-menu__section">WOMAN</div>
+				<ul class="burger-menu__list"><a href="#"></a> 
+					<li><a href="#">Accessories</a></li>
+					<li><a href="#">Jackets & Coats</a></li>
+					<li><a href="#">Polos</a></li>
+					<li><a href="#">T-Shirts</a></li>
+					<li><a href="#">Shirts</a></li>
+				</ul>
+				<div class="burger-menu__section">KIDS</div>
+				<ul class="burger-menu__list">
+					<li><a href="#">Accessories</a></li>
+					<li><a href="#">Jackets & Coats</a></li>
+					<li><a href="#">Polos</a></li>
+					<li><a href="#">T-Shirts</a></li>
+					<li><a href="#">Shirts</a></li>
+					<li><a href="#">Bags</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="catalog__top">
+				<div class="catalog__top-container _container">
+					<a href="#" class="catalog__new-arrivals">REGISTRATION</a>
+				</div>
+			</div>
+			<div class="main-info">
+				<div class="main-info__form _container">
+					<form class="cart-form" action="#">
+						<label for="name">Your Name</label>
+						<input type="text" id="name" placeholder="First Name">
+						<input type="text" placeholder="Last Name">
+						<div class="main-info__form-radio">
+							<label><input type="radio" name="sex">&ensp;Male</label>				
+							<label><input type="radio" name="sex">&ensp;Female</label>
+							<label class="_hide-radio"><input type="radio" name="sex">&ensp;Other</label>
+						</div>
+						<label for="cart-email">Login details</label>
+						<input type="text" id="cart-email" placeholder="Email">
+						<input type="text" placeholder="Password">
+						<p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+						<button>JOIN NOW<span class="_icon-arrow-big"></span></button>
+					</form>
+					<div class="registration-info">
+						<h3 class="registration-info__title">LOYALTY HAS ITS PERKS</h3>
+						<p class="registration-info__text">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+						<ul>
+							<li class="_icon-done"><span>15% off welcome offer</span></li>
+							<li class="_icon-done"><span>Free shipping, returns and exchanges on all orders</span></li>
+							<li class="_icon-done"><span>$10 off a purchase on your birthday</span></li>
+							<li class="_icon-done"><span>Early access to products</span></li>
+							<li class="_icon-done"><span>Exclusive offers & rewards</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+<script src="JS/script-catalog.js"></script>
+</body>
+</html>

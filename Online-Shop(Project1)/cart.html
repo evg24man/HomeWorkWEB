@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cart</title>
+	<link rel="stylesheet" href="iconsfont.css">
+	<link rel="stylesheet" href="styles/cart-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,regular,700,900" rel="stylesheet" />
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<nav class="menu _container">
+				<div class="menu__left-block">
+					<a href="index.html" class="menu__left-block_item"><img src="png-images/logo.png" alt="logo"></a>
+					<button class="menu__left-block_item _icon-search"></button>
+				</div>
+				<div class="menu__right-block">
+					<button id="menu-icon" class="menu__right-block_item _icon-menu"></button>
+					<a href="registration.html" class="menu__right-block_item _icon-account _item-hide"></a>
+					<a href="cart.html" class="menu__right-block_item _icon-shopping-cart _item-hide"></a>
+				</div>
+			</nav>
+			<nav id="menu" class="burger-menu _hide-burger-menu">
+				<button id="close-icon" class="burger-menu__top _icon-close"></button>
+				<div class="burger-menu__title">MENU</div>
+				<div class="burger-menu__section">MAN</div>
+				<ul class="burger-menu__list">
+					<li><a href="#">Accessories</a></li>
+					<li><a href="#">Bags</a></li>
+					<li><a href="#">Denim</a></li>
+					<li><a href="#">T-Shirts</a></li>
+				</ul>
+				<div class="burger-menu__section">WOMAN</div>
+				<ul class="burger-menu__list"><a href="#"></a> 
+					<li><a href="#">Accessories</a></li>
+					<li><a href="#">Jackets & Coats</a></li>
+					<li><a href="#">Polos</a></li>
+					<li><a href="#">T-Shirts</a></li>
+					<li><a href="#">Shirts</a></li>
+				</ul>
+				<div class="burger-menu__section">KIDS</div>
+				<ul class="burger-menu__list">
+					<li><a href="#">Accessories</a></li>
+					<li><a href="#">Jackets & Coats</a></li>
+					<li><a href="#">Polos</a></li>
+					<li><a href="#">T-Shirts</a></li>
+					<li><a href="#">Shirts</a></li>
+					<li><a href="#">Bags</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="catalog__top">
+				<div class="catalog__top-container _container">
+					<a href="#" class="catalog__new-arrivals">SHOPPING CART</a>
+				</div>
+			</div>
+			<div class="main-block _container">
+				<div class="main-block__left">
+					<div class="main-block__left-cards">
+						<div class="left-cards__card">
+							<img src="catalog-images/catalog-image(3).jpg" alt="picture">
+							<div class="left-cards__card-info">
+								<div class="card-info__title">
+									<h3>MANGO PEOPLE<br>T-SHIRT</h3>
+									<button class="_icon-close"></button>
+								</div>
+								<div class="card-info__specifications">Price:&ensp;<span class="_pink-color">$300</span></div>
+								<div class="card-info__specifications">Color: Red</div>
+								<div class="card-info__specifications">Size: Xl	</div>
+								<div class="card-info__specifications">Quantity:&emsp;&emsp;<input type="text" placeholder="2"></div>
+							</div>
+						</div>
+						<div class="left-cards__card">
+							<img src="catalog-images/catalog-image(2).jpg" alt="picture">
+							<div class="left-cards__card-info">
+								<div class="card-info__title">
+									<h3>MANGO PEOPLE<br>T-SHIRT</h3>
+									<button class="_icon-close"></button>
+								</div>
+								<div class="card-info__specifications">Price:&ensp;<span class="_pink-color">$300</span></div>
+								<div class="card-info__specifications">Color: Red</div>
+								<div class="card-info__specifications">Size: Xl	</div>
+								<div class="card-info__specifications">Quantity:&emsp;&emsp;<input type="text" placeholder="2"></div>
+							</div>
+						</div>
+					</div>
+					<div class="main-block__left-buttons">
+						<button>CLEAR SHOPPING CART</button>
+						<button>CONTINUE SHOPPING</button>
+					</div>
+				</div>
+				<div class="main-block__right">
+					<form class="main-block__right-form" action="#">
+						<label for="address">SHIPPING ADRESS</label>
+						<input type="text" name="" id="address" placeholder="Bangladesh">
+						<input type="text" name="" id="" placeholder="State">
+						<input type="text" name="" id="" placeholder="Postcode / Zip">
+						<button>GET A QUOTE</button>
+					</form>
+					<div class="main-block__right-ammount">
+						<p>SUB TOTAL &emsp;&ensp;$900</p>
+						<h5>GRAND TOTAL &emsp;&ensp;<span class="_pink-color">$900</span></h5>
+						<hr>
+						<button>PROCEED TO CHECKOUT</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="subscribe">
+				<div class="container__subscribe _container">
+					<div class="subscribe__block">
+						<img src="images/subscribe-picture.png" alt="picture">
+						<p class="subscribe__block-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+					</div>
+					<form class="subscribe__block" action="#">
+						<h4 class="subscribe__title">SUBSCRIBE<br><span class="subscribe__2nd-string">FOR OUR NEWLETTER AND PROMOTION</span></h4>
+						<div class="subscribe-block__button">
+							<input class="subscribe__input" type="email" name="email" placeholder="Enter Your Email">
+							<a class="subscribe__button" href="#">Subscribe</a>
+						</div>
+					</form>
+				</div> 
+			</div>
+			<div class="footer__socials">
+				<div class="socials__content _container">
+					<p class="footer__copy">© 2021  Brand  All Rights Reserved.</p>
+					<div class="socials__block">
+						<a class="social__item _icon-facebook" href="#"></a>
+						<a class="social__item _icon-inst" href="#"></a>
+						<a class="social__item _icon-pinterest" href="#"></a>
+						<a class="social__item _icon-twitter" href="#"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="JS/script-catalog.js"></script>
+</body>
+</html>
