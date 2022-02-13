@@ -223,29 +223,34 @@ main {
 	justify-content: space-between;
 }
 .menu-blocks :last-child {
-	padding-right: 0;
+	margin-right: 0;
 }
 .item__link {
 	display: block;
 	position: relative;
-	padding-right: calc(19px + (30 - 19) * ((100vw - 768px) / (1600 - 768)));
+	margin-right: calc(19px + (30 - 19) * ((100vw - 768px) / (1600 - 768)));
+	transition: 0.5s;
 }
 .item__link img {
 	max-width: 100%;
 	height: auto;
 }
+
 .item__link:hover {
-	opacity: 0.9;
+	transform: scale(1.03);
+	opacity: 0.95;
 }
 .wide-block__link {
 	display: block;
 	position: relative;
+	transition: 0.5s;
 }
 .wide-block__link img {
 	max-width: 100%;
 	height: auto;
 }
 .wide-block__link:hover {
+	transform: scale(1.03);
 	opacity: 0.9;
 }
 .item__title {
