@@ -62,16 +62,16 @@
 				<div class="main-info__form _container">
 					<form class="cart-form" action="#">
 						<label for="name">Your Name</label>
-						<input type="text" id="name" placeholder="First Name">
-						<input type="text" placeholder="Last Name">
+						<input type="text" id="name" placeholder="First Name" autofocus required>
+						<input type="text" placeholder="Last Name" autofocus required>
 						<div class="main-info__form-radio">
 							<label><input type="radio" name="sex">&ensp;Male</label>				
 							<label><input type="radio" name="sex">&ensp;Female</label>
 							<label class="_hide-radio"><input type="radio" name="sex">&ensp;Other</label>
 						</div>
 						<label for="cart-email">Login details</label>
-						<input type="text" id="cart-email" placeholder="Email">
-						<input type="text" placeholder="Password">
+						<input type="email" id="cart-email" placeholder="email" autofocus required>
+						<input type="password" placeholder="Password" autofocus required>
 						<p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
 						<button>JOIN NOW<span class="_icon-arrow-big"></span></button>
 					</form>
@@ -100,7 +100,7 @@
 						<h4 class="subscribe__title">SUBSCRIBE<br><span class="subscribe__2nd-string">FOR OUR NEWLETTER AND PROMOTION</span></h4>
 						<div class="subscribe-block__button">
 							<input class="subscribe__input" type="email" name="email" placeholder="Enter Your Email">
-							<a class="subscribe__button" href="#">Subscribe</a>
+							<button class="subscribe__button">Subscribe</button>
 						</div>
 					</form>
 				</div> 
