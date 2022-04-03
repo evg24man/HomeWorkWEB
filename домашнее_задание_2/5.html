@@ -68,15 +68,14 @@ Infinity делать не нужно, однако, в случае если б
   function mathOperation(firstNumber, secondNumber, operation) {
     if (operation === "+") {
       return sum(firstNumber, secondNumber);
-    }
-    else if (operation === "-") {
+    } else if (operation === "-") {
       return sub(firstNumber, secondNumber);
-    }
-     else if (operation === "*") {
+    } else if (operation === "*") {
       return multi(firstNumber, secondNumber);
-    }
-     else if (operation === "/") {
+    } else if (operation === "/") {
       return div(firstNumber, secondNumber);
+    } else {
+      return NaN;
     }
   }
 
@@ -84,6 +83,7 @@ Infinity делать не нужно, однако, в случае если б
   console.log(mathOperation(5, 3, "-"));
   console.log(mathOperation(5, 3, "*"));
   console.log((mathOperation(5, 3, "/")));
+  console.log(isNaN((mathOperation(5, 3, "gh"))));
 </script>
 </body>
 </html>
